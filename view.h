@@ -59,7 +59,7 @@ class QToolButton;
 class View;
 
 class GraphicsView : public QGraphicsView {
-    Q_OBJECT
+    //Q_OBJECT
 
 public:
     GraphicsView(View *v) : QGraphicsView(), _view(v) {}

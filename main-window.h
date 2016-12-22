@@ -56,7 +56,7 @@
 class QGraphicsScene;
 
 class MainWindow : public QWidget {
-    Q_OBJECT
+    //Q_OBJECT
 
 public:
     MainWindow(QWidget *parent = 0);
