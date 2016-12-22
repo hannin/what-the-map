@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/QtGui">
-        <file>ic_zoom_out_black_24dp.png</file>
-        <file>ic_zoom_in_black_24dp.png</file>
-    </qresource>
-</RCC>

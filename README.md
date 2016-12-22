@@ -30,6 +30,6 @@ It can be just built and run in pure visual studio project.<br>
 
 ## Screenshots
 - View from far-away<br>
-![Alt text](/full.png?raw=true)
+![Alt text](/screenshots/full.png?raw=true)
 - Find path.<br>
-![Alt text](/way-drawn.png?raw=true)
+![Alt text](/screenshots/way-drawn.png?raw=true)

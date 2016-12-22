@@ -83,13 +83,13 @@ View::View(const QString &name, QWidget *parent)
     zoomInIcon->setAutoRepeat(true);
     zoomInIcon->setAutoRepeatInterval(33);
     zoomInIcon->setAutoRepeatDelay(0);
-    zoomInIcon->setIcon(QPixmap("./ic_zoom_in_black_24dp.png"));
+    zoomInIcon->setIcon(QPixmap("./res/ic_zoom_in_black_24dp.png"));
     zoomInIcon->setIconSize(iconSize);
     QToolButton *zoomOutIcon = new QToolButton;
     zoomOutIcon->setAutoRepeat(true);
     zoomOutIcon->setAutoRepeatInterval(33);
     zoomOutIcon->setAutoRepeatDelay(0);
-    zoomOutIcon->setIcon(QPixmap("./ic_zoom_out_black_24dp.png"));
+    zoomOutIcon->setIcon(QPixmap("./res/ic_zoom_out_black_24dp.png"));
     zoomOutIcon->setIconSize(iconSize);
     this->_zoomSlider = new QSlider;
     this->_zoomSlider->setMinimum(-200);
