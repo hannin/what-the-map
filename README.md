@@ -14,15 +14,19 @@ The next last mouse click will refresh the highlighted drawn path and the state 
 
 Except getting the shortest path, other UIs are intuitive like zoom in/out and scrolling.<br>
 
-## How-To-Run
-For now, it's available/tested only on _Windows_ only.<br>
-To run program without build, refer [here](deployment/README.md).<br>
-
 ## How-To-Build
-Current development environment is based on visual-studio with Qt tool add-in for GUI.<br>
-- Import visual studio project and install <a href="https://doc.qt.io/qt-5/">Qt-5.7</a> on Windows.
-- Build & Run
-- data files also needed in _./data/_ for running based on visual studio project. Refer [here](deployment/README.md).
+For now, it's available/tested only on _Windows_ only.<br>
+Import project (by opening _what-the-map.vcxproj_ with visual studio).<br>
+Just build the project.<br>
+
+## How-To-Run
+Run executable(_what-the-map_) output in top of project directory.<br>
+Executable should be located in top of project directory because it should be with _qt dlls_ and map resource in _data/_. <br>
+
+## Remarks
+To easy build & run, all dependent sources & libs are built in the project (qt libs, headers and shapelib sources).<br>
+All qt objects related classes(main-window and view) are preprocessed already so no any additional step needed.<br>
+It can be just built and run in pure visual studio project.<br>
 
 ## Screenshots
 - View from far-away<br>
