@@ -8,22 +8,26 @@ Draw map from Shapefiles and associated attribute files and find the shortest wa
 
 ## How-To-Use
 Qt window comes up when executed. Every click on the map can select the point to start or end.
+
 1. At first click, start point is selected which is the nearest from the mouse clicked point and the popup will notice the detail(node ID and node Name).
 2. On the next click, end point is selected by same logic and show the detail with popup.
 3. If client chose Ok, the way from the start to the end will be drawn with the blue highlighted on the map. Additionally, the link path (with link ID) is printed on console.
 4. The next last mouse click will refresh the highlighted drawn path and the state is reset.
 
-Except getting the shortest path, other UIs are intuitive like zoom in/out and scrolling.<br>
+Except getting the shortest path, other UIs are intuitive like zoom in/out and scrolling.
 
 ## How-To-Build
-For now, it's available/tested only on _Windows_ only. It tested on Windows 7 and 10.<br>
-Import project (by opening _what-the-map.vcxproj_ with visual studio).<br>
-Just build the project.
-Pre built libraries are in 32 bit, so project should be built in x86 target only.<br>
+For now, it's available/tested only on _Windows_ only. It tested on Windows 7 and 10.
+
+1. Import project (by opening _what-the-map.vcxproj_ with visual studio).
+2. Just build the project.
+
+Pre built libraries are in 32 bit, so project should be built in x86 target only.
 
 ## How-To-Run
-Run executable(_what-the-map_) output in top of project directory.<br>
-Executable should be located in top of project directory because it should be with _qt dlls_ and map resource in _data/_. <br>
+- Run executable(_what-the-map_) output in top of project directory.
+
+Executable should be located in top of project directory because it should be with _qt dlls_ and map resource in _data/_.
 
 ## Remarks
 - Before you git clone, <a href="https://git-lfs.github.com/">git-lfs</a> should be installed so as to clone large map data(>100MB).
@@ -32,7 +36,7 @@ Executable should be located in top of project directory because it should be wi
 - It can be just built and run in pure visual studio project.
 
 ## Screenshots
-- View from far-away
+### View from far-away
 ![Alt text](/screenshots/full.png?raw=true)
-- Find path.
+### Find path
 ![Alt text](/screenshots/way-drawn.png?raw=true)
