@@ -17,6 +17,7 @@ Qt window comes up when executed. Every click on the map can select the point to
 Except getting the shortest path, other UIs are intuitive like zoom in/out and scrolling.
 
 ## How-To-Build
+Needs Visual C++ 14.0.<br>
 For now, it's available/tested only on _Windows_ only. It tested on Windows 7 and 10.
 
 1. Import project (by opening _what-the-map.vcxproj_ with visual studio).
